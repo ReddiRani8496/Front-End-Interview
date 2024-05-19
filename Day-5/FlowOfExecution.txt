@@ -1,0 +1,29 @@
+Execution Context:
+
+var n = 2;
+function square(num) {
+    let square = num * num;
+    return square
+}
+let square2 = square(n);
+
+let square4 = square(4);
+
+
+Execution Context is divided into two parts Memory and code.
+
+Memory contains the variables.
+code contains the function Execution.
+
+so in Memory first n is stored, then square{} is stored, square2, square4 is stored and
+default values of n, square2, square4 are undefined.
+
+next the value of n is assigned to 2.
+
+next the square function is called with argument 2, so this function is executed
+in the code area. Code area is again divided into two parts Memory and code.
+
+in Memory num is stored with default undefined value.
+in code, num * num is executed and returns 4 to square variable.
+in square2 variable is stored with returned value i.e., 4.
+
