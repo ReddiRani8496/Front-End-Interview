@@ -1,0 +1,26 @@
+What is a function?
+===================
+
+A function is a set of instructions that can be used repeatedly in a program.
+ In JavaScript, functions are objects that can be declared, assigned, and passed as parameters to other functions. 
+
+Types of functions:
+==================
+1.  Named functions/Traditional functions/functional declaration
+
+function helloWorld() {
+  console.log('Hello World!'); 
+}
+
+2. Anonymous functions/function expression/lambda functions
+
+let helloWorld = function () { 
+  console.log('Hello World!'); 
+}
+helloWorld();
+
+3. Arrow functions/Fat arrow functions / Lambda shorthand functions
+
+let helloWorld = () => { 
+  console.log('Hello World!'); 
+}
