@@ -17,7 +17,13 @@ const colors = ["red", "green", "yellow", "blue"];
 
 // using rest operator
 
-let [color1, ...rest] = colors;
+// let [color1, ...rest] = colors;
+
+// console.log(color1); // red
+// console.log(rest); // [ 'green', 'yellow', 'blue' ]
+
+//skipping middle elements
+let [color1, , , color4] = colors;
 
 console.log(color1); // red
-console.log(rest); // [ 'green', 'yellow', 'blue' ]
+console.log(color4); // blue
