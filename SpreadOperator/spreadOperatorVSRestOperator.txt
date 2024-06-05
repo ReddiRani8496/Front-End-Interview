@@ -1,0 +1,24 @@
+Rest Operator:
+-------------
+
+A rest operator is a type of parameter that gets all of the remaining parameters of a function call via an Array. It enables us to handle a variety of inputs as parameters in a function. 
+Because it is used to combine many items, the rest operator is very helpful during array and object destructuring.
+
+Example:
+-------
+const colors = ["red", "green", "yellow", "blue"];
+let [color1, ...rest] = colors;
+
+
+
+
+Spread Operator:
+---------------
+
+The spread operator divides an array or object into separate elements or properties. 
+The spread operator is mostly used if you want to duplicate the content of an array or combine or combine multiple arrays/objects together.
+
+Example: 
+--------
+const firstArray = [5, 10, 15, 20, 25, 30];
+const newArray=[...firstArray, 35, 40]
