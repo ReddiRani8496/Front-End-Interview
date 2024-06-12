@@ -1,0 +1,17 @@
+Event Querying:
+===============
+
+    Event querying is same as the event bubbling. But it follows the top to bottom approach.
+
+
+<body>
+    <div>
+        <span>
+            <button>Click Me</button>
+        </span>
+    </div>
+</body>
+
+
+=> when button is clicked from top to bottom.
+=> html, body, div, span, button is executed.
