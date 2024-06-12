@@ -1,0 +1,21 @@
+Event Bubbling: 
+=============
+
+<body>
+    <div>
+        <span>
+            <button>Click Me</button>
+        </span>
+    </div>
+</body>
+
+
+
+=> When the user clicks on the button, not only the button called, even its parent tags called.
+=> It follows bottom up approach, when the button is clicked, then the span called , then div, then body, then html called.
+
+
+stopPropagation():
+=================
+
+It interupts the event Bubbling, excluding that event, later next tags are stopped.
