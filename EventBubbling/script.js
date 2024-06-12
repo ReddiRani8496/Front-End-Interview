@@ -13,6 +13,7 @@ body.addEventListener("click", () => {
 });
 
 div.addEventListener("click", () => {
+  e.stopPropagation();
   console.log("div was clicked");
 });
 
