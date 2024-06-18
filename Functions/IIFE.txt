@@ -1,0 +1,7 @@
+IIFE:
+-----
+
+IIFE stands for Immediately Invoked Function Expression.
+It is a way to create a Function and Immediately execute it, without needing to call it later.
+
+IIFE is commonly used to create private scope for variables,functions.
