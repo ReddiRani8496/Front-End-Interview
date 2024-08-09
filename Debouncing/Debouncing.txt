@@ -1,0 +1,8 @@
+Debouncing: 
+==========
+
+To achieve the search optimization we will use Debouncing.
+
+instead of calling the api call when we enter each character, it will call when user gives gap.
+
+So that search efficiency is achieved.
