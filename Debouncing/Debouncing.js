@@ -10,7 +10,7 @@ const debouncer = (fn, delay) => {
     let context = this,
       args = arguments;
     clearTimeout(timer);
-    timer = setTimeout(() => fn.apply(context, args), delay);
+    timer = setTimeout(() => fn(), delay);
   };
 };
 

@@ -1,0 +1,12 @@
+Debouncing and throattling both are used to achieve optimisation.
+
+Debouncing: Makes api call only user gives pause while typing.
+            Let's say user has to search for Samsung Tv.
+            If he has entered the Samsung and waits then one api call is made for the word Samsung.
+            Again if he entered the Tv then one more api call is made for the word Tv.
+            Finally the results of Samsung TV will be displayed.
+
+
+Throattling: It is similar to set interval, if we give delay of 300 milliseconds, then
+             for every 300 milliseconds the api call is made.
+             
